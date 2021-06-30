@@ -80,6 +80,36 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body {
     font-family: 'Nunito', sans-serif;
 
+    header {
+        li.active {
+            a {
+                color: $primary !important;
+            }
+        }
+
+        #menu-item-276 {
+            @extend .btn;
+            @extend .btn-sm;
+            @extend .btn-outline-dark;
+            @extend .mb-3;
+            @extend .mb-lg-0;
+            @extend .me-lg-3;
+            &:hover a{
+                color: $light;
+            }
+        }
+
+        #menu-item-277 {
+            @extend .btn;
+            @extend .btn-sm;
+            @extend .btn-dark;
+
+            a {
+                color: $light;
+            }
+        }
+    }
+
     #demo {
         svg {
             display: block;
@@ -93,6 +123,7 @@ body {
     }
 
     a {
+
         &#login,
         &.start-free {
             &:hover {

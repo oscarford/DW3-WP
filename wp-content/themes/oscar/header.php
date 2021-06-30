@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="https://localhost/dw3-wp/wp-content/uploads/2021/06/favicon.png" type="image/x-icon" />
 	<title><?php wp_title('|', true, 'right'); ?></title>
 	<link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/css/modern-normalize.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/css/bootstrap-icons.css" type="text/css" />

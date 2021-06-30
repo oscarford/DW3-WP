@@ -70,7 +70,6 @@
   		</div>
   	</div>
   </footer>
-  <script src="https://localhost/dw3-wp/wp-content/themes/oscar/js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/js/popover-start.js"></script>
   <?php wp_footer(); ?>
